@@ -30,5 +30,5 @@ The FAQ section provides answers to commonly asked questions. Users can click on
 - CSS
 - JavaScript
 
-## Authors
+## Author
 - Aleksandre Gogolashvili
