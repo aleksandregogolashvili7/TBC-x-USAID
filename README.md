@@ -31,4 +31,4 @@ The FAQ section provides answers to commonly asked questions. Users can click on
 - JavaScript
 
 ## Authors
-- [Alexandre Gogolashvili]
+- Aleksandre Gogolashvili
