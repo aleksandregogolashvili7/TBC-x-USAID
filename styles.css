@@ -1,0 +1,322 @@
+svg {
+    width: 182px; 
+    height: 40px;
+}
+
+body {
+    overflow-x: hidden;
+    min-width: 100%;
+}
+
+.rt {
+    background-color: #1d1d1d;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.item-container {
+    margin-right: 10px;
+}
+
+.item {
+    text-decoration: none;
+    color: #fff;
+    margin: 30px;
+}
+.item:hover{
+    color: #00ADEE;
+    transition-duration: 0.5s;
+}
+#USAID{
+    color: #00ADEE;
+
+}
+path {
+    transform: scale(1); /* Adjust the scale factor as needed */
+}
+
+.navbar_img {
+    display: inline-block;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.topImg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.topText {
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+    text-align: left;
+    z-index: 1; 
+    font-size: 42px; 
+}
+
+.Ptext {
+    margin: 0;
+    background-color: #1d1d1deb; /* Set the background color */
+    color: #ffffff; /* Set the text color to white for better contrast */
+    padding: 25px; /* Add padding to the container for better spacing */
+}
+
+.Ptext p {
+    margin-left: 300px;
+    font-size: 2em;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: left; 
+}
+
+#about {
+    color: #00ADEE;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#about:hover {
+    color: #8281818a;
+    transition: 0.3s ease;
+   
+}
+
+.courses {
+    background-color: #080808f1;
+    text-align: center;
+    padding: 25px;
+}
+
+.coursesH1 {
+    margin-right: 1000px;
+    font-size: 1.5em;
+    color: #f6f4f4; 
+    font-weight: bold;
+}
+
+.gridboxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-bottom: 50px;
+    padding-top: 20px; /* Adjust top padding as needed */
+    padding-left: 17%; /* Adjust the percentage value for left padding */
+    padding-right: 17%; /* Adjust the percentage value for right padding */
+    background-color: #080808f1;
+}
+
+
+.boxes {
+    border: 1px solid #dddddd87;
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 calc(33.333% - 20px); /* Maximum 3 columns with 20px gap */
+     /* Adjusted width for smaller boxes */
+    
+}
+
+
+
+.coursesImg {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.boxes h3,
+.boxes p,
+.boxes a {
+    color: #ddd;
+    margin: 15px; /* Adjusted margin for better spacing */
+}
+
+.boxes a {
+    color: #00ADEE;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.boxes a:hover {
+    color: #00aeee9c;
+    transition: 0.5s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    
+    width: 80%;
+    margin: auto;
+    position: relative;
+    height: 300px;
+    background-color: #2d2d2d0c;
+}
+
+.carousel-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    animation-duration: 0.3s;
+}
+
+.carousel {
+    width: 100%;
+    flex: 0 0 auto;
+    padding: 10px; /* Adjusted padding for space between images */
+    display: flex;
+    justify-content: space-around; /* Adjusted to space between images */
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top:55px ;
+}
+
+.slider-img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 72px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: grey;
+}
+
+#prev {
+    left: 10px;
+    font-weight:300;
+}
+
+#next {
+    right: 10px;
+}
+
+.secBackground {
+    width: 100%;
+    background-color: #1d1d1de6;
+}
+#FAQtitle-a{
+    color: #00ADEE;
+    text-decoration: none;
+    margin-left: 390px;
+    margin-top:40px ;
+font-size: 1.7rem;
+}
+#FAQtitle-p{
+    color: #f7f2f2;
+    margin-left: 400px;
+    margin-bottom:50px ;
+    margin-top: 40px;
+    padding-top: 80px;
+    font-size: 1.7rem;
+}
+#FAQsection{
+    background-color: #1d1d1d;
+    width: 100%;
+    padding-bottom: 100px;
+}
+ 
+
+
+.faq-item {
+    align-items: center;
+    text-align: left;
+    position: relative;
+    margin-bottom: 30px;
+    color: white;
+    margin-left: 0; /* Adjust the left margin as needed */
+    border-bottom: 1px solid #7c7b7b6a;
+    width: 50%;
+    margin-left: 400px;
+}
+.question {
+    display: inline-block; /* Make the question text inline */
+}
+
+.arrow {
+    align-items: center;
+    position: absolute;
+    right: 10px; /* Adjust the right position as needed */
+     /* Center the arrow vertically */
+    transform: translateY(-50%); /* Center the arrow vertically */
+    cursor: pointer;
+    
+}
+
+.answer {
+    display: none; /* Hide the answer by default */
+    padding-bottom: 30px;
+}
+.footer{
+    background-color: #04091071;
+      
+}
+.footer-section{
+    display: flex;
+    align-items: center;
+    
+    padding-top: 60px;
+    margin-right: 230px;
+}
+
+.regulations{
+    display: flex;
+    
+    padding-bottom: 50px;
+   
+
+}
+#contact-button {
+    background-color: #00ADEE;
+    border: 0;
+    width: 180px; /* Set the width of the button */
+    height: 40px; /* Set the height of the button */
+    color: #fff; /* Set the text color to white */
+    font-size: 16px; /* Set the font size */
+    cursor: pointer;
+    margin-left: 635px;
+    border-radius: 5px;
+}
+#წესები{
+    text-decoration: none;
+    color: white;
+    margin-left: 360px;
+}
+h5{
+    display: flex;
+    margin-left: 360px;
+    margin-top: 20px;
+    text-align: center;
+    color:#ddd
+}
+#fbIcon{
+    margin-left: 770px;
+}
+#ytIcon{
+    margin-left: 10px;
+}
+#tbcIcon{
+    margin-left: 360px;
+}
